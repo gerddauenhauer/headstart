@@ -1,0 +1,6 @@
+name="demo"
+type="hvm"
+vcpus=1
+memory=10 # this is the minimum size that leaves about 1.5mb to the kernel
+disk=["file:./demo.image,hda,rw"]
+vncunused=1
